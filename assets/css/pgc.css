@@ -143,11 +143,20 @@ body, html {
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .insanity .tile h1 {
-    font-size: 50px; }
+  .insanity .tile {
+    padding: 30px; }
+    .insanity .tile img {
+      margin-bottom: -40px; }
+    .insanity .tile h1 {
+      font-size: 50px; }
+    .insanity .tile #clockdiv .smalltext {
+      text-align: center; }
+    .insanity .tile #clockdiv span {
+      font-size: 50px !important; }
 
-  .insanity .tile #clockdiv .smalltext {
-    text-align: center; } }
+  .insanity #signup-email, .insanity #signup-button {
+    width: 100%;
+    margin: 5px 0; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .insanity .tile h1 {
