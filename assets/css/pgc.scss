@@ -140,10 +140,6 @@ body, html {
 		}
 	}
 
-
-
-
-
 	#signup-button {
 		background: #232323;
 		padding: 20px 30px;
@@ -179,6 +175,15 @@ body, html {
 	#response {
 		padding: 10px;
 		min-height: 50px;
+		.fa {
+			display: none;
+			//display: inline-block;
+		}
+		&.loading {
+			.fa {
+				display: inline-block;
+			}
+		}
 	}
 }
 

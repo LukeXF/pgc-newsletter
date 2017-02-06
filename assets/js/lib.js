@@ -15,6 +15,7 @@ $(document).ready(function () {
 
         if (hasError === false) {
 
+            $response.html('<i class="fa fa-spinner fa-pulse fa-lg fa-fw"></i>');
             $response.find('p').remove();
             $response.addClass('loading');
 

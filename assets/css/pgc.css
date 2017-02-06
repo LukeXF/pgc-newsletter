@@ -135,6 +135,10 @@ body, html {
 .insanity #response {
   padding: 10px;
   min-height: 50px; }
+  .insanity #response .fa {
+    display: none; }
+  .insanity #response.loading .fa {
+    display: inline-block; }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
