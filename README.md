@@ -4,6 +4,7 @@ PGC - Launch Page
 A simple newsletter sign-up form using Ajax, PHP and MySQL.
 With a countdown and animated background.
 
+![screenshot of site](https://raw.github.com/LukeXF/pgc-newsletter/master/screenshot.png)
 
 How to use
 -----------------
